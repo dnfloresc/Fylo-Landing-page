@@ -1,3 +1,7 @@
+body {
+  font-family: "Open Sans";
+}
+
 .header {
   height: 70px;
   display: flex;
