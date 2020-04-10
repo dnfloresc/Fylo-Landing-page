@@ -1,0 +1,33 @@
+.header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin: 0;
+  height: inherit;
+}
+
+.menu {
+  height: inherit;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  padding: 0 15px;
+}
+
+.container {
+  display: inherit;
+  height: inherit;
+  flex: 1;
+  justify-content: inherit;
+}
