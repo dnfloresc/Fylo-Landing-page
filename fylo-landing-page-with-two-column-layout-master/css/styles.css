@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans";
+  margin: 0;
 }
 
 .header {
@@ -29,7 +30,35 @@ body {
   padding: 0 15px;
 }
 
+.hero{
+  display: flex;
+}
+
+.testimonials {
+  display: flex;
+  background-color: #f6f6fe;
+}
+
+.get-access {
+  display: flex;
+  background-color: #585989;
+  color: #bfbfbf;
+
+}
+
+.get-access h3{
+  color: white
+}
+
+.footer {
+  display: flex;
+  background-color: #070439;
+  color: #bfbfbf;
+}
+
 .container {
+  max-width: 1000px;
+  margin: 0 auto;
   display: inherit;
   height: inherit;
   flex: 1;
