@@ -13,7 +13,6 @@ body {
 
 .logo {
   margin: 0;
-  height: inherit;
 }
 
 .menu {
@@ -32,22 +31,99 @@ body {
 
 .hero{
   display: flex;
+  justify-content: space-between;
+}
+
+.hero-description {
+  margin: 40px 0px 40px;
+}
+
+.hero-form-email input {
+  border-radius: 4px;
+  border-width: thin;
+  border-color: #bfbfbf;
+  padding: 10px 50px 10px 15px;
+}
+
+.hero-form-email button {
+  background-color: #3065f8;
+  color: white;
+  border-radius: 4px;
+  border-style: none;
+  padding: 11px 35px;
+  margin: 0px 10px;
+}
+
+.hero-illustration-cont {
+  margin: 40px 0px 40px;
 }
 
 .testimonials {
   display: flex;
   background-color: #f6f6fe;
+  justify-content: space-between;
+}
+
+.testimonial-description {
+  margin: 40px 0px 40px;
+}
+
+.testimonial-quote {
+  width: 280px;
+  height: 200px;
+  background: white;
+  width: fit-content;
+  padding: 10px 25px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px rgb(230, 233, 240)
+}
+
+.quote-content{
+  font-size: 0.75em;
+  letter-spacing: 0.6px;
+  line-height: 1.8em;
+  width: 280px;
+}
+
+.testimonial-illustration-cont {
+  margin: 40px 0px 40px;
 }
 
 .get-access {
   display: flex;
   background-color: #585989;
   color: #bfbfbf;
-
+  justify-content: space-between;
+  align-items: center;
 }
 
 .get-access h3{
   color: white
+}
+
+.access-description {
+  margin: 50px 0px 50px;
+}
+
+.access-form-email {
+  margin: 50px 0px 50px;
+}
+
+.access-form-email input {
+  border-radius: 4px;
+  border-width: thin;
+  border-color: #bfbfbf;
+  padding: 10px 110px 10px 15px;
+  display: block;
+}
+
+.access-form-email button {
+  background-color: #3065f8;
+  color: white;
+  border-radius: 4px;
+  border-style: none;
+  padding: 11px 30px;
+  margin: 10px 0px;
 }
 
 .footer {
@@ -63,4 +139,5 @@ body {
   height: inherit;
   flex: 1;
   justify-content: inherit;
+  align-items: inherit;
 }
