@@ -12,7 +12,7 @@
   <header class="header">
     <div class="container">
       <figure class="logo">
-        <img src="images/logo.svg" alt="Fylo's logo"/>
+        <img src="images/logo.svg" alt="Fylo's logo" width="140px"/>
       </figure>
       <nav class="menu">
         <ul>
@@ -46,10 +46,13 @@
         </form>
       </article>
       <figure class="hero-illustration-cont">
-        <img  class="hero-illustration" src="images/illustration-1.svg" width="400" alt="illustration people saving files inside a big folder">
+        <img  class="hero-illustration" src="images/illustration-1.svg" width="500" alt="illustration people saving files inside a big folder">
       </figure>
     </div>
   </section>
+  <div class="backround-container">
+      <img class="back-img" src="images/bg-curve-desktop.svg" alt="backgorund curve img">
+  </div>
   <section class="testimonials">
     <div class="container">
       <article class= "testimonial-description">
@@ -57,31 +60,46 @@
           Stay productive, wherever you are
         </h2>
         <div>
-          <p>
-            Never let location be an issue when accessing your files. Fylo has you<br> 
-            covered for all of your file storage needs
-          </p>
-          <p>
-            Securely share files and folders with friends, family and colleagues for</br> 
-            live collaboration. No email attachments required!
-          </p>
-          <p> 
-            <a href="">See how Fylo works</a> 
-          </p>
+          <div class="testimonial-content">
+            <p>
+              Never let location be an issue when accessing your files. Fylo has you<br> 
+              covered for all of your file storage needs
+            </p>
+            <p>
+              Securely share files and folders with friends, family and colleagues for</br> 
+              live collaboration. No email attachments required!
+            </p>
+          </div>
+          <div class="testimonial-link">
+            <p> 
+              <a href="">See how Fylo works</a> 
+            </p>
+            <img class="icon-arrow" src="images/icon-arrow.svg" height="16px" alt="icon arrow">
+          </div>
           <article class= "testimonial-quote">
+            <img class= "q-mark" src="images/icon-quotes.svg" width="15px" alt="quotation mark">
             <p class="quote-content">
               Fylo has improved our team productivity by</br> an order of magnitude. Since 
               making the</br> switch our team has become a well-oiled</br> collaboration machine.
             </p>
-            <p> 
-              Kyle Burton
-              Founder & CEO, Huddle
-            </p>
+            <div class="quote-author">
+              <div class="avatar">
+                <img class="avatar-img" src="images/avatar-testimonial.jpg" width="35px" height="35px" alt="Kyle Burton"/>
+              </div>
+              <div class="metadata">
+                <span>
+                  Kyle Burton
+                </span>
+                <p> 
+                  Founder & CEO, Huddle
+                </p>
+              </div>
+            </div>
           </article>
         </div>
       </article>
       <figure class="testimonial-illustration-cont">
-        <img class="testimonial-illustration" src="images/illustration-2.svg" width="400" alt="illustration people holding square quotes">
+        <img class="testimonial-illustration" src="images/illustration-2.svg" width="430" alt="illustration people holding square quotes">
       </figure>
     </div>
   </section>
@@ -104,21 +122,38 @@
   </section>
   <footer class="footer">
     <div class="container">
-      <ul>
-        <li>Phone: +1-543-123-4567</li>
-        <li>example@fylo.com</li>
-      </ul>
-      <ul>
-        <li>About Us</li>
-        <li>Jobs</li>
-        <li>Press</li>
-        <li>Blog</li>
-      </ul>
-      <ul>
-        <li>Contact Us</li>
-        <li>Terms</li>
-        <li>Privacy</li>
-      </ul>
+      <div class="footer-wrapper">
+        <div class="footer-img-container">
+          <img class="footer-img" src="images/logo-white.svg" width="140px">
+        </div>
+        <div class="list-wrapper">
+          <div>
+            <div class="contact-phone">
+              <img class="icon-phone" src="images/icon-phone.svg" width="15px" height="15px">
+              <p>Phone: +1-543-123-4567</p>
+            </div>
+            <div class="contact-email">
+              <img class="icon-email" src="images/icon-email.svg" width="17px" height="15px">
+              <p>example@fylo.com</p>
+            </div> 
+          </div>
+          <div class="list-one">
+            <ul>
+              <li>About Us</li>
+              <li>Jobs</li>
+              <li>Press</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+          <div class="list-two">
+            <ul>
+              <li>Contact Us</li>
+              <li>Terms</li>
+              <li>Privacy</li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <!-- <p class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
         Coded by <a href="#">Your Name Here</a>.

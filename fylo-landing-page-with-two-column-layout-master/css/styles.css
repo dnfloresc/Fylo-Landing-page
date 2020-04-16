@@ -3,6 +3,13 @@ body {
   margin: 0;
 }
 
+h2 {
+  font-family: "Raleway";
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+
 .header {
   height: 70px;
   display: flex;
@@ -17,6 +24,7 @@ body {
 
 .menu {
   height: inherit;
+  letter-spacing: -1px;
 }
 
 .header ul {
@@ -26,7 +34,7 @@ body {
 }
 
 .link {
-  padding: 0 15px;
+  padding: 0 0 0 45px;;
 }
 
 .hero{
@@ -35,14 +43,20 @@ body {
 }
 
 .hero-description {
-  margin: 40px 0px 40px;
+  margin: 70px 0px 120px;
+  align-self: center;
+  padding: 0px 0px 60px;
+}
+
+.hero-description p {
+  font-size: 15px;
 }
 
 .hero-form-email input {
   border-radius: 4px;
   border-width: thin;
   border-color: #bfbfbf;
-  padding: 10px 50px 10px 15px;
+  padding: 10px 70px 10px 15px;
 }
 
 .hero-form-email button {
@@ -50,12 +64,25 @@ body {
   color: white;
   border-radius: 4px;
   border-style: none;
-  padding: 11px 35px;
+  padding: 11px 50px;
   margin: 0px 10px;
+  font-size: 0.8em;
 }
 
 .hero-illustration-cont {
-  margin: 40px 0px 40px;
+  margin: 40px 0px 120px;
+}
+
+.back-img {
+  max-width: 100%;
+  height: inherit;
+  margin: 0 auto;
+  margin-bottom: -40px;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  position: relative;
+  z-index: -1;
 }
 
 .testimonials {
@@ -65,28 +92,77 @@ body {
 }
 
 .testimonial-description {
-  margin: 40px 0px 40px;
+  margin: 40px 0px 80px;
+}
+
+.testimonial-content p {
+ font-size: 14px;
+}
+
+.testimonial-link {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial-link p {
+  margin: 0 0 1em;
+}
+
+.testimonial-link a {
+  font-size: 14px;
+  color: #3c9f8f;
+}
+
+.icon-arrow{
+  margin: 0 0 1em;
 }
 
 .testimonial-quote {
-  width: 280px;
-  height: 200px;
+  margin-top: 25px;
+  height: 160px;
   background: white;
   width: fit-content;
-  padding: 10px 25px;
+  padding: 15px 5px 10px 35px;
   border-radius: 5px;
   box-shadow: 0px 0px 30px rgb(230, 233, 240)
 }
 
 .quote-content{
-  font-size: 0.75em;
+  font-size: 0.66em;
   letter-spacing: 0.6px;
   line-height: 1.8em;
-  width: 280px;
+  width: 260px;
+  margin-top: 1px;
+}
+
+.quote-author {
+  display: flex;
+  align-items: center
+}
+
+.avatar-img {
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.metadata span{
+ font-weight: bold;
+ letter-spacing: .3px;
+ font-size: small;
+}
+
+.metadata p {
+  font-size: x-small;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .testimonial-illustration-cont {
   margin: 40px 0px 40px;
+}
+
+.testimonial-illustration-cont img {
+  padding-top: 50px;
 }
 
 .get-access {
@@ -98,7 +174,12 @@ body {
 }
 
 .get-access h3{
-  color: white
+  color: white;
+  font-size: 1.5em;
+  margin-bottom: .5em;
+  letter-spacing: 1px;
+  font-family: "Raleway";
+  font-weight: 700;
 }
 
 .access-description {
@@ -106,15 +187,16 @@ body {
 }
 
 .access-form-email {
-  margin: 50px 0px 50px;
+  margin: 60px 0px 50px;
 }
 
 .access-form-email input {
   border-radius: 4px;
   border-width: thin;
   border-color: #bfbfbf;
-  padding: 10px 110px 10px 15px;
+  padding: 10px 160px 10px 15px;
   display: block;
+  box-shadow: 2px 2px 8px 0px rgb(86, 86, 86);
 }
 
 .access-form-email button {
@@ -124,12 +206,59 @@ body {
   border-style: none;
   padding: 11px 30px;
   margin: 10px 0px;
+  box-shadow: 2px 2px 8px rgb(86, 86, 86);
 }
 
 .footer {
   display: flex;
   background-color: #070439;
   color: #bfbfbf;
+}
+
+.footer-wrapper {
+  flex: 1;
+  margin: 80px 0 40px;
+}
+
+.list-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-wrapper li {
+  list-style: none;
+}
+
+.contact-phone {
+  display: flex;
+  align-items: center;
+}
+
+.contact-phone img{
+  margin: 1em 0;
+  padding-right: 1em;
+}
+
+.contact-email {
+  display: flex;
+  align-items: center;
+}
+
+.contact-email img {
+  margin: 0;
+  padding-right: 1em;
+}
+
+.contact-email p {
+  margin: 0
+}
+
+.list-one li {
+  margin-bottom: 10px;
+}
+
+.list-two li {
+  margin-bottom: 10px;
 }
 
 .container {
