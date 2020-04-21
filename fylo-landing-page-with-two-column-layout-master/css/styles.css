@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans";
   margin: 0;
@@ -173,11 +177,14 @@ h2 {
   color: #bfbfbf;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 0px;
 }
 
 .get-access h3{
   color: white;
   font-size: 1.5em;
+  margin-top: 0em;
   margin-bottom: .5em;
   letter-spacing: 1px;
   font-family: "Raleway";
@@ -185,11 +192,11 @@ h2 {
 }
 
 .access-description {
-  margin: 50px 0px 50px;
+  margin-top: 0em;
 }
 
 .access-form-email {
-  margin: 60px 0px 50px;
+  margin-top: 0;
 }
 
 .access-form-email input {
@@ -263,6 +270,12 @@ h2 {
   margin-bottom: 10px;
 }
 
+.attribution p {
+  padding: 20px 0 0px;
+  margin: 0 auto;
+  font-size: 9px;
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -271,4 +284,175 @@ h2 {
   flex: 1;
   justify-content: inherit;
   align-items: inherit;
+  flex-wrap: inherit;
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    padding: 0 1em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero {
+    display: block;
+    text-align: -webkit-center;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+  }
+
+  .hero-description {
+    transform: rotate(180deg);
+    margin: 0 auto;
+  }
+
+  .hero-illustration-cont {
+    transform: rotate(180deg);
+    margin: 0 auto;
+    padding: 2em 0;
+  }
+
+  .hero-form-email button {
+    display: block;
+    margin-top: 1em;
+    padding: 11px 95px;
+  }
+
+  .testimonials {
+    display: block;
+    text-align: -webkit-center;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+  }
+
+  .testimonial-description {
+    transform: rotate(180deg);
+    margin: 0 auto;
+    padding-bottom: 4em;
+  }
+
+  .testimonial-link {
+    justify-content: center;
+  }
+
+  .testimonial-quote {
+    text-align: initial;
+    padding: 15px 5px 10px 25px;
+  }
+
+  .testimonial-illustration-cont {
+    margin: 0 auto;
+    padding-bottom: 3em;
+    transform: rotate(180deg);
+  }
+
+  .get-access {
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+
+  .access-form-email {
+    text-align: -webkit-center;
+  }
+
+  .access-form-email input {
+    padding: 10px 70px 10px 15px;
+  }
+
+  .access-form-email button {
+    padding: 11px 65px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .logo img {
+    width: 90px;
+  }
+
+  .menu {
+    font-size: small;
+    margin: 0;
+  }
+
+  .menu ul {
+    margin: 0;
+    padding-top: 1.8em;
+  }
+
+  .link {
+    padding-left: 30px;
+  }
+
+  .hero-illustration-cont img {
+    width: 330px;
+  }
+
+  .hero-description h2 {
+    font-size: 25px;
+    font-family: "Open Sans";
+  }
+
+  .hero-description p {
+    font-size: 13px;
+    margin: 1em 3em 1em;
+  }
+
+  br {
+    display: none;
+  }
+
+  .back-img{
+    padding-bottom: 1.5em;
+  }
+
+  .testimonial-illustration-cont img {
+    width: 300px;
+  }
+
+  .testimonial-description h2 {
+    font-size: 17px;
+    margin-bottom: 1.5em;
+  }
+
+  .testimonial-content p {
+    font-size: 13.5px;
+    text-align: left;
+    padding: 0 2em 0 0;
+  }
+
+  .testimonial-link a {
+    font-size: 11px;
+  }
+
+  .metadata span {
+    font-size: 10px;
+  }
+
+  .access-description h3 {
+    font-size: 1em;
+  } 
+
+  .access-description p {
+    padding: 0 2em;
+    font-size: 14px;
+  }
+
+  .access-form-email {
+    padding-top: 1em;
+  }
+
+  .list-wrapper {
+    display: block;
+  }
+
+  .list-one ul {
+    padding-inline-start: 0;
+    padding-top: 2em;
+  }
+
+  .list-two ul {
+    padding-inline-start: 0;
+    padding-top: 2em;
+  }
 }
