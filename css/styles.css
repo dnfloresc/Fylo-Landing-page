@@ -276,6 +276,10 @@ h2 {
   font-size: 9px;
 }
 
+.attribution a {
+  color: #f6f6fe
+}
+
 .container {
   max-width: 1000px;
   margin: 0 auto;
